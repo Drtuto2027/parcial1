@@ -1,0 +1,13 @@
+class Arma: 
+      def __init__(self,calibre,peso,alcanse):
+          self.calibre=calibre
+          self.peso=peso
+          self.alcanse=alcanse 
+          
+pistola = Arma("9mm","350gramos","90m")
+revolver = Arma("38","430gramos","75m")
+
+print(type(pistola))
+print(type(revolver))
+print(pistola.calibre,pistola.peso,pistola.alcanse)
+print(revolver.calibre,revolver.peso,revolver.alcanse)
